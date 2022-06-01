@@ -52,8 +52,9 @@ body {
 /* Footer */
 .footer {
   padding: 20px;
-  text-align: center;
-  background: #ddd;
+  text-align: left;
+  color: #adf7af;
+  background: #222222;
   margin-top: 20px;
 }
 
@@ -63,4 +64,24 @@ body {
     width: 100%;
     padding: 0;
   }
+}
+
+/* unvisited link */
+a:link {
+  color: #f7afad;
+}
+
+/* visited link */
+a:visited {
+  color: #ad10aa;
+}
+
+/* mouse over link */
+a:hover {
+  color: #f772af;
+}
+
+/* selected link */
+a:active {
+  color: #b518b2;
 }
